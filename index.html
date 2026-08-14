@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#000205" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='14' fill='%23000205'/><circle cx='16' cy='16' r='8' fill='%2300d4ff' opacity='0.8'/><circle cx='16' cy='16' r='4' fill='%23ffffff'/></svg>" />
+    <meta
+      name="description"
+      content="Ultimaitron AI — a holographic neural AI core controlled with real-time hand gestures. All camera processing happens locally in your browser."
+    />
+    <title>Ultimaitron AI — Neural Intelligence Core</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/ui/styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="scene"></canvas>
+      <div id="ui" aria-live="polite"></div>
+    </div>
+
+    <noscript>
+      <div class="fatal">
+        <h1>JAVASCRIPT REQUIRED</h1>
+        <p>This interface is rendered in real time and needs JavaScript enabled.</p>
+      </div>
+    </noscript>
+
+    <script type="module" src="./src/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ultimaitron AI — offline verification harness</title>
+    <link rel="stylesheet" href="/src/ui/styles.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "/node_modules/three/build/three.module.js",
+          "three/addons/": "/node_modules/three/examples/jsm/",
+          "@mediapipe/tasks-vision": "/dev/mediapipe-stub.js"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="scene"></canvas>
+      <div id="ui"></div>
+    </div>
+    <script type="module" src="/build-test/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+node_modules/
+dist/
+build-test/
+dev/shots/
+*.log
+.DS_Store
+.vite/
